@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&display=swap');
+
+body{font-family: 'Gilda Display', serif;}
+
+.hidden{
+    display: none;
+}
+
+img{width: 100%; height: 100vh; background-size: cover; position: absolute; opacity: .8; z-index: -1; top: 0; left: 0;}
+
+form{z-index: 1; width:450px; position: relative; top: 100px; left: 50%; transform: translateX(-50%); margin-bottom: 20px;}
+form input{border: none; background: none; font-size: 26px; width: 350px; border-bottom: 3px solid #ddd; }
+form input::placeholder{color: #fff; font-family: 'Gilda Display';}
+h1#greeting{ width: 257px; position: relative; top: 100px; left: 50%; transform: translateX(-50%); margin-bottom: 20px;}
+ul#todo-list{position: relative; top: 100px; left: 50%; transform: translateX(-50%); width: 460px;}
+button{background: none; border: none; padding-left: 20px;}
+
+h2#clock{position: absolute; top: 0; right: 20px;}
+
+#quote{position: absolute; bottom: 30px;}
+
+#weather{position: absolute; top:56px; right: 20px;}
